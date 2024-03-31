@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: #f4f9fc;
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: "Helvetica Neue";
+}
+
+nav a {
+    text-decoration: none;
+    color: #021963;
+}
+
+/* main {
+    padding: 20px;
+} */
+
+section {
+    margin-bottom: 80px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+
+.gallery-item {
+    margin: 10px;
+    /* width: 100px; */
+    text-align: center;
+    position: relative;
+}
+
+.gallery-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000, 0.5;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.gallery-item:hover img {
+    opacity: 0.3;
+}
+
+.gallery-item:hover .overlay .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/*.overlay h3, .overlay p {
+    /* color: white 
+    padding: 10px;
+} */
+
+.gallery-item p {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;  
+    margin: 0 auto;  
+    width: fit-content;  
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}

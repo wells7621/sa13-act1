@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Site</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Hi, my name is Angel.</h1>
+            <p>I am an aspiring web developer. Take a look around to learn me about me and my work!</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a senior at the University of Memphis majoring in Computer Science. I will be graduating this Spring in May 2024. I am interested in web development and UI/UX design.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Projects</h2>
+            <div class="gallery">
+                <article class="gallery-item">
+                    <img src="headphone.gif" alt="Audio Project">
+                    <div class="overlay">
+                        <h3>Audio Dichotics</h3>
+                        <p>Training program for children with audio deficits.</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="list.gif" alt="Task Reward Project">
+                    <div class="overlay">
+                        <h3>UOM Rewards</h3>
+                        <p>A task app that gives you rewards.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
