@@ -17,3 +17,14 @@ h2 {
     text-align: center;
     font-weight: lighter;
 }
+
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+ol {
+    list-style-position: inside; 
+    text-align: center;
+}
