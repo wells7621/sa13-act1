@@ -1,0 +1,19 @@
+p {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+p img {
+    width: 75%;
+    margin: bottom;
+}
+
+h2 {
+    font-family: "Optima", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: lighter;
+}
